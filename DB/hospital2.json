@@ -1,0 +1,90 @@
+{
+	"hospital_id":1,
+	"hospital_name":"razi" , 
+	"location":"rawalpindi"  ,
+	
+	"patient":
+	[
+		{
+		"patient_id":1,
+		"name":"daud", 
+		"gender":"male", 
+		"date_of_birth":"2-May-2002", 
+		"phone_number":"020235705895",
+		"adress":"house no 1 street 1 ",
+		"age":20 , 
+		"blood_group":"A+",
+		"patient_no":1,
+		"appointments":
+		[
+			{
+			"Appointment_number":1 ,
+			"time":"1:20" ,
+			"room_id":"1",
+			"lab_id":"1",
+			"date_of_appointment":"23-2-2021",
+			"payment":
+				{  "amount": "2000" ,
+				 "date":"2-23-2020"},
+			"medicine":
+				[{"type":"a",
+				"id_med":1 , 
+				"usgae":"2",
+				"name_medicine":"despirine"
+				}]
+			}]
+		
+		},{
+			"patient_id":2,
+			"name":"david", 
+			"gender":"male", 
+			"date_of_birth":"2-May-2002", 
+			"phone_number":"020235705895",
+			"adress":"house no 1 street 1 ",
+			"age":20 , 
+			"blood_group":"A+",
+			"patient_no":1,
+			"appointments":
+			[
+				{
+				"Appointment_number":1 ,
+				"time":"1:20" ,
+				"room_id":"1",
+				"lab_id":"1",
+				"date_of_appointment":"23-2-2021",
+				"payment":
+					{  "amount": "2000" ,
+					 "date":"2-23-2020"},
+				"medicine":
+					[{"type":"a",
+					"id_med":1 , 
+					"usgae":"2",
+					"name_medicine":"despirine"
+					}]
+				}]
+			
+			}] ,
+       
+	
+	
+	"Lab":[{"lab_no":1,"lab_type":"B","lab_name":"Ahmed lab"},{"lab_no":2,"lab_type":"A","lab_name":"Jinnah lab"}],
+	
+	
+	"rooms":[{"room_number":1 , "floor_no":1 , "num_of_patienets" :10 ,"nurse_id":[1,2,3],"patient_id":[1,2,3]}],
+        
+
+	
+	"Admin":[{"Admin_id" :1  , "password" :123234 }],
+	
+	"Department":
+		{
+		"depaertment_id":1 ,"department_name" :"pyscology" ," No_of_doctors":10 , "No_of_nurses" :10
+		},
+		"Doctor":
+		[{"doctor_name":"david" ," Adress":"house 212 Rawalpindi" , "contact_no" :"03035705895" , "doc_id" : 1 , "gender":"male" , "years_of_experiance":10,
+	"position":"senior","department_id":1,"appointments":[1,2,3,4,5,6]}],
+	
+	"nurse":[{"nurse_name":"Aaiza" , "Adress":"house 1 Islamabad" , "contact_no" :"03033772832" , "nurse_id ": 1, "gender":"female" , "years_of_experiance":12,
+	"position":"senior","department_id":1}]		
+
+}
